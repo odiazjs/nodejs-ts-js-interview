@@ -3,10 +3,10 @@
  * For example if given the string 'ReVERt this StriNG' the expected output
  * should be 'rEverT THIS sTRIng'
  * Conditions: Do not use a for loop or the .forEach utility function,
- * you must use the .map() Array operator. Also filter() these characters ['.', '/']
+ * you must use the .map() Array operator.
  */
 
-const sentence = 'LETS . / INVERT the CasE . / in THIs . // sTRING';
+const sentence = 'LETS INVERT the CasE in THIs sTRING';
 const result = [];
 const invertCasing = (letter) => {
   // your code here
@@ -16,7 +16,9 @@ const invertCasing = (letter) => {
  * 2.) Given a function doAsync(), write code in this
  * function that executes a passed function that prints
  * to the console a parameter called 'word' from an
- * outside function after 2 seconds
+ * outside function after 2 seconds. The outside function
+ * has to be the one responsible from passing the 'word' param
+ * to the doAsync fn
  */
 
 const doAsync = (/** ? */) => {
